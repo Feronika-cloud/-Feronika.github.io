@@ -1,14 +1,5 @@
 # Feronika' Portfolio
 
----
-title: 'Case study :  Fitbit Data for Bellabeat'
-author: "Feronika"
-date: "2024-03-04"
-output:
-  html_document: default
-  pdf_document: default
----
-
 # Case Study 2: How Can a Wellness Technology
 Company Play It Smart?
 
@@ -168,7 +159,7 @@ ggplot(data = avg_intensity_levels_long,
        theme(plot.tag.position = 'bottomleft')
 ```
 
-![](https://91b8cc23196046c99440157f83b4ab08.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Ffig.+1+Daily+intensity+vs.+Distance.png)
+![](https://github.com/Feronika-cloud/Feronika.github.io/blob/main/fig.%201%20Daily%20intensity%20vs.%20Distance.png)
 
 According to the figure, people labeled as "light active" cover more distance in kilometers on average compared to those labeled as "very active."
 
