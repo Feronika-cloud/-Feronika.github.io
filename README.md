@@ -1,7 +1,7 @@
 # Feronika' Portfolio
 
 ---
-title: 'Case study:  Fitbit Data for Bellabeat'
+title: 'Case study :  Fitbit Data for Bellabeat'
 author: "Feronika"
 date: "2024-03-04"
 output:
@@ -34,7 +34,7 @@ The data consists of Fitbit Fitness Tracker data obtained from Kaggle. About 30 
 # How does the data help in answering the business questions?
 The data's reliability is limited due to its small sample size and lack of gender specificity.
 
-It is sourced from a third party, and collected via Amazon Mechanical Turk, reducing its originality.
+It is sourced from a third party, collected via Amazon Mechanical Turk, reducing its originality.
 
 The data provides moderately comprehensive insights into daily activity intensity, calories burned, steps taken, sleep time, and weight.
 
@@ -167,7 +167,8 @@ ggplot(data = avg_intensity_levels_long,
        tag = 'Fig.1') + 
        theme(plot.tag.position = 'bottomleft')
 ```
-![](Feronika.github.io/fig. 1 Daily intensity vs. Distance.png)
+
+![](https://91b8cc23196046c99440157f83b4ab08.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Ffig.+1+Daily+intensity+vs.+Distance.png)
 
 According to the figure, people labeled as "light active" cover more distance in kilometers on average compared to those labeled as "very active."
 
@@ -210,6 +211,7 @@ ggplot(data = avg_minutes_levels_long,
   theme(plot.tag.position = 'bottomleft')
 ```
 
+![](https://91b8cc23196046c99440157f83b4ab08.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Ffig.+2+Daily+Intensity+vs.+Minutes.png)
 
 Most individuals spend a significant amount of time engaged in sedentary activities, followed by lightly active pursuits. Encouraging more moderate and vigorous activity could promote better wellness.
 
@@ -252,6 +254,7 @@ ggplot(data = calories_per_step, aes(x = total_steps, y =calories)) +
       theme(plot.tag.position = 'bottomleft')
 ```
 
+![](https://91b8cc23196046c99440157f83b4ab08.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Ffig.+3+Calories+burnt+per+daily+steps.png)
 
 There's a positive correlation between daily steps and calories burned. While the trendline initially dips towards the peak in the 3rd week, overall, the trend continues to move forward into the 4th week.
 
@@ -269,6 +272,7 @@ ggplot(data = SleepDay, aes(x = total_time_in_bed , y =total_minutes_asleep)) +
   theme(plot.tag.position = 'bottomleft')
 ```
 
+![](https://91b8cc23196046c99440157f83b4ab08.app.posit.cloud/graphics/f7d1d812-8d88-4b04-ba13-534b8a6d059e.png)
 
 More time spent in bed correlates with a higher total duration of sleep, suggesting a positive relationship between time in bed and total sleep duration.
 
@@ -283,7 +287,5 @@ As daily steps increase, so do calories burned, suggesting a potential avenue fo
 -Offer free trial days to allow users to experience the app's benefits before committing to a subscription.
 
 -Implement app notifications to encourage users to be more active, thus reducing inactive time.
-
-
 
 
