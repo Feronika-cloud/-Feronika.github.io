@@ -1,5 +1,14 @@
 # Feronika' Portfolio
 
+---
+title: 'Case study:  Fitbit Data for Bellabeat'
+author: "Feronika"
+date: "2024-03-04"
+output:
+  html_document: default
+  pdf_document: default
+---
+
 # Case Study 2: How Can a Wellness Technology
 Company Play It Smart?
 
@@ -25,7 +34,7 @@ The data consists of Fitbit Fitness Tracker data obtained from Kaggle. About 30 
 # How does the data help in answering the business questions?
 The data's reliability is limited due to its small sample size and lack of gender specificity.
 
-It is sourced from a third party, collected via Amazon Mechanical Turk, reducing its originality.
+It is sourced from a third party, and collected via Amazon Mechanical Turk, reducing its originality.
 
 The data provides moderately comprehensive insights into daily activity intensity, calories burned, steps taken, sleep time, and weight.
 
@@ -96,6 +105,8 @@ DailyActivity %>%
          sedentary_active_distance) %>%
   summary()
 ```
+
+
 Maximum distance: 28.030 and  Mean distance: 5.490
 
 ## Statistical summary for minutes category
@@ -110,6 +121,8 @@ DailyActivity %>%
          calories) %>% 
   summary()  
 ```
+
+
 Max steps: 36019 (avg. 7638). Mean calories burned: 2304, max: 4900. (Note: Most female adults aim for 1,600–2,200 daily calories burnt and 6,000 to 10,000 steps)
 
 ## Statistical summary and visualization
@@ -154,6 +167,8 @@ ggplot(data = avg_intensity_levels_long,
        tag = 'Fig.1') + 
        theme(plot.tag.position = 'bottomleft')
 ```
+![](fig. 1 Daily intensity vs. Distance.png)
+
 According to the figure, people labeled as "light active" cover more distance in kilometers on average compared to those labeled as "very active."
 
 
@@ -194,6 +209,8 @@ ggplot(data = avg_minutes_levels_long,
        tag = 'Fig.2') + 
   theme(plot.tag.position = 'bottomleft')
 ```
+
+
 Most individuals spend a significant amount of time engaged in sedentary activities, followed by lightly active pursuits. Encouraging more moderate and vigorous activity could promote better wellness.
 
 ## Discovering the relationship between  total steps and calories burnt per weeek
@@ -234,6 +251,8 @@ ggplot(data = calories_per_step, aes(x = total_steps, y =calories)) +
       tag = 'Fig. 3') +
       theme(plot.tag.position = 'bottomleft')
 ```
+
+
 There's a positive correlation between daily steps and calories burned. While the trendline initially dips towards the peak in the 3rd week, overall, the trend continues to move forward into the 4th week.
 
 ##  Visualization between total time in bed and total minutes sleep
@@ -246,9 +265,11 @@ ggplot(data = SleepDay, aes(x = total_time_in_bed , y =total_minutes_asleep)) +
   ylab ('Total minutes asleep') +
   labs(title = 'Total time in bed vs. Total minutes asleep',
        caption = 'Data FitBit from Kaggle',
-       tag = 'Fig. 3') +
+       tag = 'Fig. 4') +
   theme(plot.tag.position = 'bottomleft')
 ```
+
+
 More time spent in bed correlates with a higher total duration of sleep, suggesting a positive relationship between time in bed and total sleep duration.
 
 
@@ -262,5 +283,7 @@ As daily steps increase, so do calories burned, suggesting a potential avenue fo
 -Offer free trial days to allow users to experience the app's benefits before committing to a subscription.
 
 -Implement app notifications to encourage users to be more active, thus reducing inactive time.
+
+
 
 
