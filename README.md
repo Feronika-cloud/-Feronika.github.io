@@ -167,7 +167,7 @@ ggplot(data = avg_intensity_levels_long,
        tag = 'Fig.1') + 
        theme(plot.tag.position = 'bottomleft')
 ```
-![](fig. 1 Daily intensity vs. Distance.png)
+![](Feronika.github.io/fig. 1 Daily intensity vs. Distance.png)
 
 According to the figure, people labeled as "light active" cover more distance in kilometers on average compared to those labeled as "very active."
 
