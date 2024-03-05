@@ -201,6 +201,7 @@ ggplot(data = avg_minutes_levels_long,
        tag = 'Fig.2') + 
   theme(plot.tag.position = 'bottomleft')
 ```
+![](https://github.com/Feronika-cloud/Feronika.github.io/blob/main/fig.%202%20Daily%20Intensity%20vs.%20Minutes.png)
 
 ![](https://91b8cc23196046c99440157f83b4ab08.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Ffig.+2+Daily+Intensity+vs.+Minutes.png)
 
@@ -244,6 +245,7 @@ ggplot(data = calories_per_step, aes(x = total_steps, y =calories)) +
       tag = 'Fig. 3') +
       theme(plot.tag.position = 'bottomleft')
 ```
+![](https://github.com/Feronika-cloud/Feronika.github.io/blob/main/fig.%203%20Calories%20burnt%20per%20daily%20steps.png)
 
 ![](https://91b8cc23196046c99440157f83b4ab08.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Ffig.+3+Calories+burnt+per+daily+steps.png)
 
@@ -262,6 +264,7 @@ ggplot(data = SleepDay, aes(x = total_time_in_bed , y =total_minutes_asleep)) +
        tag = 'Fig. 4') +
   theme(plot.tag.position = 'bottomleft')
 ```
+![](https://github.com/Feronika-cloud/Feronika.github.io/blob/main/fig.%204%20Total%20time%20in%20bed%20vs.%20Total%20minutes%20asleep.png)
 
 ![](https://91b8cc23196046c99440157f83b4ab08.app.posit.cloud/graphics/f7d1d812-8d88-4b04-ba13-534b8a6d059e.png)
 
