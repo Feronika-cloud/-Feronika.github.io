@@ -1,12 +1,4 @@
-# -Feronika.github.io
----
-title: 'Case study :  Fitbit Data for Bellabeat'
-author: "Feronika"
-date: "2024-03-04"
-output:
-  html_document: default
-  pdf_document: default
----
+# Feronika' Portfolio
 
 # Case Study 2: How Can a Wellness Technology
 Company Play It Smart?
